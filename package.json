@@ -1,0 +1,22 @@
+{
+  "name": "pigeon-farm-manager",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "prebuild": "node scripts/generate-icons.mjs",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/dom-speech-recognition": "^0.0.7",
+    "@types/node": "^25.0.8",
+    "fake-indexeddb": "^6.2.7",
+    "sharp": "^0.34.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0"
+  }
+}

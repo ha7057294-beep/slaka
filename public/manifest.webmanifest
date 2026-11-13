@@ -1,0 +1,40 @@
+{
+  "id": "/",
+  "name": "إدارة مزرعة الحمام",
+  "short_name": "مزرعة الحمام",
+  "description": "تطبيق ويب محلي متكامل لإدارة ومتابعة مزرعة الحمام والسلاكات والأزواج والبيض.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "dir": "rtl",
+  "lang": "ar",
+  "background_color": "#F4F4F1",
+  "theme_color": "#0E6B5C",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
